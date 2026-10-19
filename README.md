@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/atharvakanase17"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:atharvakanase17@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=17atharvakanase&style=for-the-badge&color=36BCF7&label=Profile+Views"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=17atharvakanase.17atharvakanase&left_text=Profile%20Views&left_color=%23555&right_color=%2336BCF7"/>
 </p>
 
 ---
