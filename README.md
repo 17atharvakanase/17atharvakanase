@@ -1,94 +1,117 @@
-<h1 align="center">Hi, I'm Atharva Kanase 👋</h1>
-<h3 align="center">Generative AI Engineer · Building production LLM systems for US Healthcare</h3>
+<!-- ===== Animated header ===== -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Atharva%20Kanase&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Generative%20AI%20Engineer&descAlignY=58&descSize=18" width="100%"/>
+
+<!-- ===== Typing animation ===== -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Building+production+LLM+pipelines+%F0%9F%A7%A0;RAG+%7C+Agentic+AI+%7C+Multi-Agent+Systems+%F0%9F%A4%96;12K%2B+medical+charts+coded+daily+with+LLMs+%F0%9F%8F%A5;Shipping+GenAI+on+AWS+Bedrock+%E2%98%81%EF%B8%8F" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/atharvakanase17"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:atharvakanase17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Mumbai,%20India-555555?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <a href="https://linkedin.com/in/atharvakanase17"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:atharvakanase17@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=17atharvakanase&style=for-the-badge&color=36BCF7&label=Profile+Views"/>
 </p>
 
 ---
 
-## 🧠 About Me
+## 👨‍💻 `whoami`
 
-I design and deploy **LLM-powered applications** that run in production, not just in notebooks.
+```python
+class Atharva:
+    role       = "Generative AI Engineer"
+    company    = "GeBBS Healthcare Solutions"
+    location   = "Mumbai, India 🇮🇳"
+    domain     = "US Healthcare · Revenue Cycle Management"
 
-- 🏥 Software Engineer (Data Science) at **GeBBS Healthcare Solutions**, building AI for US healthcare **Revenue Cycle Management (RCM)**
-- ⚙️ Shipped an LLM pipeline on **AWS Bedrock** that reads radiology reports and extracts **CPT, ICD-10, E/M and MIPS** codes, processing **12,000–15,000 charts/day**
-- 🔍 Work daily with **RAG**, **vector search (Qdrant)**, **prompt engineering**, **agentic workflows** and **LLMOps**
-- 📈 Promoted from Associate Software Engineer to Software Engineer within my first year
+    building   = ["LLM coding pipelines", "RAG systems", "Multi-agent workflows"]
+    in_prod    = "12K–15K radiology charts/day → CPT, ICD-10, E/M, MIPS codes"
+    stack      = ["Python", "AWS Bedrock", "Claude", "Qdrant", "FastAPI", "LiteLLM"]
 
----
-
-## 🚀 What I Build at Work
-
-| Area | Highlights |
-|---|---|
-| **LLM Production Pipeline** | Claude Sonnet / Haiku on AWS Bedrock · 12K–15K charts/day · 83–84% coding accuracy |
-| **RAG & Retrieval** | Qdrant vector DB · embeddings · semantic search · grounding outputs to reduce hallucinations |
-| **Prompt Engineering** | Chain-of-Thought · multi-gate prompt chains · function calling · structured outputs · prompt caching |
-| **LLMOps** | LiteLLM gateway on Kubernetes · per-client keys & budgets · cost tracking · prompt regression testing |
-| **Hybrid AI** | Rule-based pipeline (4,000+ charts/day, 96% accuracy) extended with LLM reasoning for edge cases |
-
----
-
-## ⭐ Featured Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| [**AI Persona – RAG Agentic System**](https://github.com/17atharvakanase/Atharva-s-AI-Persona---RAG-Agentic-AI-System) | An agentic AI persona that answers questions grounded in my own knowledge base using RAG | Python · RAG · Agents |
-| [**Multi-Agent Pre-Sales Orchestration**](https://github.com/17atharvakanase/Atharva_Multi_Agent_Orchestration_pre_sales_experts) | A team of specialised AI agents that collaborate on pre-sales tasks | Multi-Agent · LLMs |
-| [**Semantic CRM Assistant**](https://github.com/17atharvakanase/Atharva-s-semantic-crm-assistant-main) | Ask CRM data questions in plain English using semantic search | Python · Embeddings |
-| [**RAG-based ATS Analyser**](https://github.com/17atharvakanase/Atharva_Rag_based_ATS_Analyser) | Scores resumes against job descriptions the way an ATS would, with RAG-powered feedback | TypeScript · RAG |
-| [**SFT Training Model**](https://github.com/17atharvakanase/SFT_Training_Model) | Supervised fine-tuning of an LLM on custom data | Python · HuggingFace |
-| [**US Medical Coding Scraper**](https://github.com/17atharvakanase/us-medical-coding-scraper) | Selenium scrapers for CPT, HCPCS, modifiers and ICD-10 data from AAPC Codify | Python · Selenium |
-
-**Also built:**
-- 🤖 **Multi-Agent Prompt-Fix Automation** – three LLM agents (Diagnoser, Patcher, Verifier) that turn bug tickets into tested prompt fixes
-- 🏆 **CourseCrafter AI** – GPT-4 course-creation platform with six AI tools (*Best Project Award*)
+    def currently(self):
+        return "Turning unstructured clinical text into structured, billable data 🚀"
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-**AI & LLMs**
-<p>
-  <img src="https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/GPT--4-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/LiteLLM-1F2937?style=flat-square&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,aws,fastapi,mysql,kubernetes,linux,git,github,ts,html,vscode&perline=11" />
 </p>
 
-**Cloud & Backend**
-<p>
-  <img src="https://img.shields.io/badge/AWS%20Bedrock-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-</p>
-
-**Languages & Data**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS_Bedrock-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LiteLLM-1F2937?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 </p>
 
 ---
 
-## 🏥 Domain Expertise
+## ⚡ What I Ship
 
-US Healthcare RCM · Medical Coding (ICD-10, CPT, E/M, MIPS) · Computer-Assisted Coding (CAC) · Clinical Documentation
+| 🧩 Area | 🔥 Highlights |
+|---|---|
+| **LLM in Production** | Claude Sonnet / Haiku on AWS Bedrock · 12K–15K charts/day · 83–84% accuracy |
+| **RAG & Retrieval** | Qdrant · embeddings · semantic search · grounded outputs, fewer hallucinations |
+| **Prompt Engineering** | Chain-of-Thought · multi-gate prompt chains · function calling · prompt caching |
+| **LLMOps** | LiteLLM gateway on Kubernetes · per-client budgets · cost tracking · regression evals |
+| **Hybrid AI** | Rule engine (4K+ charts/day, 96% accuracy) + LLM reasoning for edge cases |
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| 🤖 [**AI Persona – RAG Agentic System**](https://github.com/17atharvakanase/Atharva-s-AI-Persona---RAG-Agentic-AI-System) | Agentic AI persona grounded in a personal knowledge base | `Python` `RAG` `Agents` |
+| 🧠 [**Multi-Agent Pre-Sales Orchestration**](https://github.com/17atharvakanase/Atharva_Multi_Agent_Orchestration_pre_sales_experts) | Specialised AI agents collaborating on pre-sales tasks | `Multi-Agent` `LLMs` |
+| 🔬 [**SFT Training Model**](https://github.com/17atharvakanase/SFT_Training_Model) | Supervised fine-tuning of an LLM on custom data | `Python` `HuggingFace` |
+| 🏥 [**US Medical Coding Scraper**](https://github.com/17atharvakanase/us-medical-coding-scraper) | Scrapers for CPT, HCPCS, modifiers and ICD-10 data | `Python` `Selenium` |
+| 📄 [**RAG-based ATS Analyser**](https://github.com/17atharvakanase/Atharva_Rag_based_ATS_Analyser) | Scores resumes against JDs with RAG-powered feedback | `TypeScript` `RAG` |
+| 💼 [**Semantic CRM Assistant**](https://github.com/17atharvakanase/Atharva-s-semantic-crm-assistant-main) | Query CRM data in plain English via semantic search | `Python` `Embeddings` |
+
+> 🛠️ **Also built:** a 3-agent *Diagnoser → Patcher → Verifier* loop that turns bug tickets into tested prompt fixes · 🏆 **CourseCrafter AI**, a GPT-4 course-creation platform (*Best Project Award*)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=17atharvakanase&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=17atharvakanase&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=17atharvakanase&theme=tokyonight&hide_border=true&background=0d1117"/>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=17atharvakanase&theme=tokyo-night&hide_border=true&bg_color=0d1117"/>
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/17atharvakanase/17atharvakanase/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/17atharvakanase/17atharvakanase/output/github-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/17atharvakanase/17atharvakanase/output/github-snake-dark.svg"/>
+</picture>
 
 ---
 
 <p align="center">
-  🎓 B.E. Information Technology, A. P. Shah Institute of Technology (2025) &nbsp;·&nbsp; ☁️ AICTE–AWS Data Analytics Virtual Internship
+  🎓 B.E. IT, A. P. Shah Institute of Technology (2025) &nbsp;•&nbsp; ☁️ AICTE–AWS Data Analytics Virtual Internship
 </p>
 
-<p align="center"><i>Open to Generative AI / LLM Engineer roles. Let's connect!</i></p>
+<p align="center"><b>💬 Open to Generative AI / LLM Engineer roles. Let's build something intelligent together!</b></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer" width="100%"/>
