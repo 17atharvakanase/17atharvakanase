@@ -22,7 +22,7 @@
 class Atharva:
     role       = "Generative AI Engineer"
     company    = "GeBBS Healthcare Solutions"
-    location   = "Mumbai, India 🇮🇳"
+    location   = "Mumbai, India 📍"
     domain     = "US Healthcare · Revenue Cycle Management"
 
     building   = ["LLM coding pipelines", "RAG systems", "Multi-agent workflows"]
